@@ -31,3 +31,32 @@ footer{
     padding: 20px;
     border-radius: 5px;
 }
+
+p{
+    margin: 5px;
+}
+.profile{
+    animation: 4s ease-out 0s 1 slideInFromLeft;
+}
+
+.hawkID{
+    animation: 4s ease-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
